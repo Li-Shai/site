@@ -1,0 +1,73 @@
+/*Коментарий идет снизу под селетором*/
+body {
+    background-color: #FDFAF5;
+}
+/*Задаём фон страницы*/
+@font-face {
+    font-family: 'burger';
+    src: url(fonts/bebasneuebook.woff);
+}
+/*Подключаем шрифт*/
+h1 {
+    font-family: 'burger';
+    text-align: center;
+}
+/*Подключаем шрифт*/
+span {
+    font-family: 'burger';
+    text-align: center;
+    display: inline-block;
+}
+/*Подключаем шрифт*/
+div > img {
+    display: inline-block;
+    border-radius: 50%;
+    height: 7em;
+}
+/*Делаем фото круглыми и делаем их блочно-строчными*/
+#kira, #lox {
+    display: inline-block;
+    text-align: center;
+}
+#glova {
+    position: relative;
+}
+#kira {
+    position: relative;
+    left: 15%;
+}
+#lox {
+    position: absolute;
+    right: 15%;
+}
+.container {
+    text-align: center;
+}
+
+.marry-button {
+    background-color: #ff69b4; /* Розовый цвет */
+    color: white; /* Цвет текста */
+    border: none; /* Убираем рамку */
+    border-radius: 25px; /* Скругленные углы */
+    padding: 15px 30px; /* Отступы внутри кнопки */
+    font-size: 20px; /* Размер шрифта */
+    cursor: pointer; /* Указатель при наведении */
+    transition: background-color 0.3s, transform 0.3s; /* Плавный переход для эффектов */
+}
+
+.marry-button:hover {
+    background-color: #ff76bf; /* Темнее при наведении */
+    transform: scale(1.05); /* Увеличение при наведении */
+}
+
+.marry-button:active {
+    transform: scale(0.95); /* Уменьшение при нажатии */
+}
+#cho {
+    width: 20%;
+    align-items: center;
+}
+#zaza {
+    display: inline-block;
+}
+

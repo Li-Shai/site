@@ -1,0 +1,15 @@
+body {
+    background-color: #FDFAF5;
+}
+/*Задаём фон страницы*/
+@font-face {
+    font-family: 'burger';
+    src: url(fonts/bebasneuebook.woff);
+}
+#clou {
+    width: 20%;
+}
+h1 {
+    font-family: 'burger';
+    text-align: center;
+}
